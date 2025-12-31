@@ -1,66 +1,113 @@
-LifeLogix
-LifeLogix is a MERN-based full-stack health app that helps users track, log, and visualize vitals like blood pressure, sugar levels, and heart rate. It includes medication reminders and trend analysis through interactive charts, offering a secure, user-friendly health dashboard.
+# 🩺 LifeLogix – Smart Tracking for a Healthier You
 
-🩺 LifeLogix – Smart Tracking for a Healthier You
-LifeLogix is a full-stack health monitoring web application built with the MERN stack (MongoDB, Express.js, React.js, Node.js). It empowers users to track, visualize, and manage their personal health metrics securely through a unified platform.
+LifeLogix is a **MERN-based full-stack health monitoring web application** that helps users securely track, log, and visualize their daily health vitals. It provides insightful analytics, medication reminders, and an intuitive dashboard to support better health decisions.
 
-🌟 Key Features
+---
 
-🧑‍⚕️ User Authentication – Secure sign-up/login using JWT
+## 🌟 Overview
 
-📈 Health Metrics Logging – Record daily vitals like BP, glucose, weight, and heart rate
+LifeLogix empowers users to manage their personal health data in one unified platform. From recording vital signs to analyzing long-term trends through interactive charts, the application focuses on simplicity, security, and usability.
 
-📊 Interactive Charts – Visualize trends over time with Recharts
+---
 
-⏰ Medication Reminders – Add medications with timing and dosage
+## ✨ Key Features
 
-📅 Calendar View – See all logs and reminders in a structured format
+- 🧑‍⚕️ **User Authentication**  
+  Secure user registration and login using **JWT-based authentication**.
 
-⚙️ Profile Management – Customize user profile and preferences
+- 📈 **Health Metrics Logging**  
+  Track daily vitals such as:
+  - Blood Pressure (Systolic / Diastolic)
+  - Blood Sugar
+  - Heart Rate
+  - Weight & BMI
 
-📤 Data Export – Export health logs to CSV or PDF (optional)
+- 📊 **Interactive Data Visualization**  
+  Visualize health trends over time using dynamic charts (Recharts).
 
-📱 Responsive UI – Optimized for mobile, tablet, and desktop
+- ⏰ **Medication Reminders**  
+  Add medications with dosage and schedule to avoid missed doses.
 
-🛠️ Tech Stack
-Frontend	Backend	Database	Charts	Auth
-React.js	Node.js + Express.js	MongoDB	Recharts	JWT
-✍️ Contributors
+- 📅 **Calendar View**  
+  View health logs and reminders in a structured calendar format.
 
-Raktim Mondal – Team Lead
-Duronto Biswas - Team Member
-Pritam Biswas - Team Member
-Soumita Sadhu - Team Member
-Sumanta Dana - Team Member
-Surajit Bhowmik - Team Member
-📦 Core Features
+- ⚙️ **Profile Management**  
+  Update personal information, health goals, and preferences.
 
-✅ User Authentication
+- 📤 **Data Export (Optional)**  
+  Export health records in **CSV or PDF** format.
 
-Register/Login (JWT-based).
-Store user profile: age, weight, height, health conditions.
-📊 Health Tracker
+- 📱 **Responsive UI**  
+  Optimized for mobile, tablet, and desktop devices.
 
-Daily entries for:
-Blood Pressure (systolic/diastolic)
-Heart Rate
-Blood Sugar
-Weight/BMI
-Save entries with date/time.
-Show trends with interactive charts.
-🧪 Medication Reminder
+---
 
-Add daily/weekly meds with time and dosage.
-Notification/reminder system (can use email or local notification API).
-📅 Health Calendar
+## 🛠️ Tech Stack
 
-Calendar view of entries and medication schedule.
-Visual indicators for missed or logged days.
-📈 Dashboard & Insights
+| Layer       | Technology                     |
+|------------|--------------------------------|
+| Frontend   | React.js, TypeScript, CSS       |
+| Backend    | Node.js, Express.js             |
+| Database   | MongoDB                         |
+| Charts     | Recharts                        |
+| Auth       | JWT (JSON Web Tokens)           |
 
-Charts: Weekly/monthly averages (Chart.js/Recharts).
-Progress analysis (e.g., “Heart rate improving over 2 weeks”).
-📁 Profile & Settings
+---
 
-Update profile data, goals, or preferred units (e.g., kg/lbs).
-Option to export data as PDF or CSV.
+## 📦 Core Modules
+
+### ✅ User Authentication
+- Secure Register/Login
+- JWT-based session handling
+- Store user profile data (age, weight, height, health conditions)
+
+### 📊 Health Tracker
+- Daily health entries with date & time
+- Metrics:
+  - Blood Pressure
+  - Heart Rate
+  - Blood Sugar
+  - Weight/BMI
+- Trend visualization through charts
+
+### 🧪 Medication Reminder
+- Add daily/weekly medication schedules
+- Dosage and time-based reminders
+- Can be extended with email or notification APIs
+
+### 📅 Health Calendar
+- Calendar view for logs and medication schedules
+- Visual indicators for missed or logged entries
+
+### 📈 Dashboard & Insights
+- Weekly and monthly health summaries
+- Progress analysis (e.g., improvement trends)
+
+### 📁 Profile & Settings
+- Update personal details and health goals
+- Unit preferences (kg/lbs, etc.)
+- Export health data as PDF or CSV
+
+---
+
+## ✍️ Contributors
+
+- **Raktim Mondal** – Team Lead  
+- **Duronto Biswas** – Team Member  
+- **Pritam Biswas** – Team Member  
+- **Soumita Sadhu** – Team Member  
+- **Sumanta Dana** – Team Member  
+- **Surajit Bhowmik** – Team Member  
+
+---
+
+## 🚀 Future Enhancements
+- AI-based health insights
+- Doctor consultation module
+- Mobile app version
+- Cloud-based notification services
+
+---
+
+## 📌 License
+This project is developed for educational and academic purposes.
